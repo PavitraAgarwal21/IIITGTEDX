@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="output.css"> 
+     <style>
+.center_div{
+    width: 100vw;
+    height: 100vh;
+display: grid;
+place-items: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+
+    text-transform: uppercase;
+    position: relative;
+}
+h1::before{
+    content:"TEDxIIITG";
+    width: 100%;
+    color:rgb(255, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide {
+    0% {
+        width: 0%;
+    }
+    50%{
+        width: 57%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+.linear_gradient{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#000000bb, #300202ad);
+}
+     </style>
+</head>
+<body class="bg-[#121212] ">
+    <nav class ="bg-black shadow-lg">
+        <div class="px-4 max-w-6xl mx-auto">
+            <div class=" flex justify-between">
+            <div class="">
+            <!--  logo and name -->
+             <div>
+                <a class ="flex items-center py-3 px-2 space-x-2" href="index.html">
+                    <div class="text-2xl lg:text-4xl xl:4xl">
+                <span class="text-red-600  font-extrabold">TED</span>
+                <span class="text-red-600  mb-3 font-semibold ">x</span>
+                <span class="text-white  font-semibold">IIIT Guwahati</span>
+                    </div>
+                </a>
+                </div>
+            <!-- pages name-->
+            <div class="hidden md:flex space-x-1.5">
+                <a class="py-4 px-2 text-red-600 border-red-600 border-b-4  font-semibold" href="index.html">Home</a>
+                <a class="py-4 px-2 text-white font-semibold hover:text-red-600 duration-300 hover:text-lg " href="speaker.html">Speakers</a>
+                <a class="py-4 px-2 text-white font-semibold hover:text-red-600 duration-300 hover:text-lg "  href="upcoming.html">UpComing</a>
+                <a class="py-4 px-2 text-white font-semibold hover:text-red-600 duration-300 hover:text-lg " href="why.html">Why</a>
+              </div>
+            </div>
+<div class="lg:hidden xl:hidden text-white text-2xl font-bold mt-2" > <a href="#footer_123">X</a></div>
+            </div>
+          </div>
+      </div>
+    </nav>
+    <main>
+        <div 
+        class="w-fit "
+         style="background-image: url('img/stage.jpg');"> 
+         <div class="linear_gradient">
+       <div class="center_div">
+           <h1 class="text-5xl sm:text-2xl xl:text-9xl md:text-4xl ">TEDxIIITG</h1>
+       </div>
+    </div>
+      
+    </main>
+
+    <div class="p-3">
+    <div class="mb-11 font-extrabold text-3xl hover:text-5xl text-center uppercase border-2 border-dashed border-red-600 hover:border-white text-red-600 hover:bg-red-800 hover:text-white py-12 mx-6" >What is Tedx</div>
+    
+    <div class="lg:grid p-5  lg:grid-cols-2 gap-5 place-content-around text-white">       
+    <p class="text-xl p-5">TED, when independently organized by a group of organizations, community, or an institution is licensed as TEDx. As much as it promises autonomy,such events continue to adhere to the principles of an ideal TED talk. It’s not only diverse but also spreads the reach.The essentialities of independent TED is devoted to speaking to a specific community,that are a conglomeration of people representing the same ideas of work, education,interests, or belongingness from a region. It is meant to highlight voices within and aroundthe community catering to mutual notions. The event revolves around a theme such it is responsive to the majority of the audience.
+    </p>
+    <div class="">
+    <img class="hidden lg:flex xl:flex mt-10 ml-44 h-2/3 w-1/2 " src="./img/tedx.jpg" alt="">
+    </div>
+</div>
+    </div>
+
+
+<!-- mark your calender -->
+<div class="pt-3">
+<h2 class="mb-11 font-extrabold text-2xl hover:text-4xl text-center uppercase border-2 border-dashed border-red-600 hover:border-white text-red-600 hover:bg-red-800 hover:text-white py-8">mark your calender</h2>
+<div class="text-white text-center p-5 mt-7 shdo\">
+<div class= "text-3xl ">10/5/2022</div>
+<br>
+<div class="text-2xl" >Timing: 7:00 PM to 8:00 PM</div>
+</div>
+</div>
+
+<div class="my-20">
+    <h2 class="mb-11 font-extrabold text-2xl hover:text-4xl text-center uppercase border-2 border-dashed border-red-600 hover:border-white text-red-600 hover:bg-red-800 hover:text-white py-8">location</h2>
+  
+    </div>
+<div class="lg:grid p-5  lg:grid-cols-2 gap-5 place-content-around">
+<!-- text  -->
+<p class="text-xl p-8 text-white">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, nam Lorem ipsum dolor sit amet, c
+onsectetur adipisicing elit. Doloribus aperiam laborum ullam enim aliquid facere asperiores inventore 
+mollitia ipsam?
+ Vero inventore quaerat cum voluptate provident, hic autem delectus natus eum?
+</p>
+
+<!-- map  -->
+
+<div class="">
+    <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.2724802411353!2d91.68939471400587!3d26.187813097225334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5ac1e7cc93d5%3A0xbf481e3cfc490e1!2sIndian%20Institute%20Of%20Technology%E2%80%93Guwahati%20(IIT%E2%80%93Guwahati)!5e0!3m2!1sen!2sin!4v1650280917015!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<br><br><br>
+
+<!-- footer  -->
+<!-- component -->
+<div id="footer_123">
+<footer class="footer bg-black relative pt-1 border-b-2 red-blue-700">
+    <div class="container mx-auto px-6">
+        <div class="sm:flex sm:mt-8">
+            <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+                <div class="flex flex-col">
+                    <span class=" text-red-700 uppercase font-bold mb-2">TEDxIIITG</span>
+                    <span class="my-2"><a href="index.html" class="text-white  text-md hover:text-red-500">Home</a></span>
+                    <span class="my-2"><a href="speaker.html" class="text-white  text-md hover:text-red-500">Speaker</a></span>
+                    <span class="my-2"><a href="upcoming.html" class="text-white  text-md hover:text-red-500">up-coming</a></span>
+                    <span class="my-2"><a href="why.html" class="text-white  text-md hover:text-red-500">why to attend</a></span>
+
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-red-700  uppercase mt-4 md:mt-0 mb-2">Social Contact</span>
+                    <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">twitter</a></span>
+                    <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">facebook</a></span>
+                    <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">instagram</a></span>
+                    <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">linked in</a></span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-red-700  uppercase mt-4 md:mt-0 mb-2">Important links</span>
+                    <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">IIITG</a></span>
+                    <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">TED</a></span>
+                    <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">TEDxIIITG</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-">
+        <div class="mt-16 border-t-2 border-white flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="text-sm text-white font-bold mb-2">
+                    © 2022 by IIITG
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<!-- /footer  -->
+
+</body>
+</html>

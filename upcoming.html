@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+      .container {
+        position: relative;
+        width: 100%;
+        border: .2rem solid rgb(19, 18, 18);
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #eb3a1bab;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container:hover .overlay {
+        height: 100%;
+      }
+      
+      .text {
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+    </head>
+<body class="bg-[#121212]">
+
+  <nav class ="bg-black shadow-lg">
+    <div class="px-4 max-w-6xl mx-auto">
+        <div class=" flex justify-between">
+        <div class="">
+        <!--  logo and name -->
+         <div>
+            <a class ="flex items-center py-3 px-2 space-x-2" href="index.html">
+                <div class="text-2xl lg:text-4xl xl:4xl">
+            <span class="text-red-600  font-extrabold">TED</span>
+            <span class="text-red-600  mb-3 font-semibold ">x</span>
+            <span class="text-white  font-semibold">IIIT Guwahati</span>
+                </div>
+            </a>
+            </div>
+        <!-- pages name-->
+        <div class="hidden md:flex space-x-1.5">
+          <a class="py-4 px-2 text-white font-semibold hover:text-red-600 duration-300 hover:text-lg " href="index.html">Home</a>
+          <a class="py-4 px-2 text-white font-semibold hover:text-red-600 hover:text-lg transition duration-300 hover:order-red-600 hover:border-b-4 " href="speaker.html">Speaker</a>
+          <a class="py-4 px-2 text-red-600 border-red-600 border-b-4  font-bold text-lg "  href="upcoming.html">UpComing</a>
+          <a class="py-4 px-2 text-white font-semibold hover:text-red-600 duration-300 hover:text-lg   " href="why.html">Why</a>
+          </div>
+        </div>
+<div class="lg:hidden xl:hidden text-white text-2xl font-bold mt-2" > <a href="#footer_123">X</a></div>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+    <br>
+    <h2 class="text-white font-extrabold text-3xl text-center my-5">Our Upcoming Speakers</h2>
+    <br>
+   <section>
+    <div class="grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
+       <div class="container">
+          <img  src="./img/harit-mohan.jpeg" alt="Avatar" class="image w-fit">
+            <div class="overlay">
+              <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+               <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi,
+                  <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button>
+                  
+                  </div>
+      
+                  </div>
+    </div>
+
+ 
+    <div class="container">
+        <img src="./img/vedang-patel.jpeg" alt="Avatar" class="image">
+          <div class="overlay">
+               <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+              <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+                  suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+                 
+                <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+      
+                </div>
+  </div>
+
+
+  <div class="container">
+    <img src="./img/prasant-singh.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+          
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+  </div>
+</div>
+
+<div class="container">
+    <img src="./img/sricharan-lakkaraju.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+  </div>
+</div>
+
+<div class="container">
+    <img src="./img/Imagine.webp" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+  </div>
+</div>
+
+<div class="container">
+    <img src="./img/harit-mohan.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            um distinctio numquam enim pariatur sit, magni modi iure aperiam praesentium asperiores?
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+  </div>
+</div>
+
+<div class="container">
+    <img src="./img/akjinkya.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+            um distinctio numquam enim pariatur sit, magni modi iure aperiam praesentium asperiores?
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>
+  </div>
+</div>
+
+<div class="container">
+    <img src="./img/akjinkya.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>  </div>
+</div>
+
+<div class="container">
+    <img src="./img/akjinkya.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+            um distinctio numquam enim pariatur sit, magni modi iure aperiam praesentium asperiores?</div>  </div>
+</div>
+
+<div class="container">
+    <img src="./img/akjinkya.jpeg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text-center mt-4 text-lg font-bold font-serif py-5 text-black" >Name</div>
+        <div class=" p-5 h-56 overflow text-xl space-x-6 text-black">udiandae tempora, Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Molestiae earum maxime molestias et, ut neque reiciendis. Quae tenetur eligendi, 
+            suscipit aliquam placeat vel quia nostrum illo earum deserunt culpa libero. 
+          <br>
+                  <button class="bg-transparent hover:bg-black text-white font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                    Vote
+                  </button></div>  </div>
+</div>
+
+
+  </div>
+</section> 
+
+<br>
+<footer class="footer bg-black relative pt-1 border-b-2 red-blue-700">
+  <div class="container mx-auto px-6">
+      <div class="sm:flex sm:mt-8">
+          <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+              <div class="flex flex-col">
+                  <span class=" text-red-700 uppercase font-bold mb-2">TEDxIIITG</span>
+                  <span class="my-2"><a href="index.html" class="text-white  text-md hover:text-red-500">Home</a></span>
+                  <span class="my-2"><a href="speaker.html" class="text-white  text-md hover:text-red-500">Speaker</a></span>
+                  <span class="my-2"><a href="upcoming.html" class="text-white  text-md hover:text-red-500">up-coming</a></span>
+                  <span class="my-2"><a href="why.html" class="text-white  text-md hover:text-red-500">why to attend</a></span>
+
+              </div>
+              <div class="flex flex-col">
+                  <span class="font-bold text-red-700  uppercase mt-4 md:mt-0 mb-2">Social Contact</span>
+                  <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">twitter</a></span>
+                  <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">facebook</a></span>
+                  <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">instagram</a></span>
+                  <span class="my-2"><a href="#" class="text-white text-md hover:text-red-500">linked in</a></span>
+              </div>
+              <div class="flex flex-col">
+                  <span class="font-bold text-red-700  uppercase mt-4 md:mt-0 mb-2">Important links</span>
+                  <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">IIITG</a></span>
+                  <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">TED</a></span>
+                  <span class="my-2"><a href="#" class="text-white  text-md hover:text-red-500">TEDxIIITG</a></span>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container mx-auto px-">
+      <div class=" border-t-2 border-white flex flex-col items-center">
+          <div class="sm:w-2/3 text-center py-6">
+              <p class="text-sm text-white font-bold mb-2">
+                  © 2022 by IIITG
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
